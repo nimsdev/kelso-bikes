@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
    <head>
-<!--      <link rel="stylesheet" type="text/css" href="table.css">-->
+      <!--      <link rel="stylesheet" type="text/css" href="table.css">-->
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+      <script src="js/modernizr.custom.70736.js"></script>
       <link rel="stylesheet" type="text/css" href="hover.css">
       <link rel="stylesheet" type="text/css" href="popup.css">
+      <link rel="stylesheet" type="text/css" href="grid.css">
       <link rel="stylesheet" type="text/css" href="main.css">
       <link rel="stylesheet" type="text/css" href="scroll.css">
-       <title>Kelso Bikes - Quality, Comfort, Style</title>
+      <title>Kelso Bikes - Quality, Comfort, Style</title>
       <link href='https://fonts.googleapis.com/css?family=Signika:400,700,600,300' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
@@ -101,7 +104,7 @@
       </script>     
    </head>
    <body>
-       <h1 id="top" style="height:0;font-size:0pt;"></h1>
+      <h1 id="top" style="height:0;font-size:0pt;"></h1>
       <div class="simple-contain">
          <div class="top-right-column">
             <center>
@@ -111,7 +114,7 @@
                </section>
                <section class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="">
                   <a class="checkem" href="#browse">About KELSO</a>
-<!--                  <a class="checkem2" href="#snaps">KELSO Snaps <i class="fa fa-camera" aria-hidden="true"></i></a>-->
+                  <!--                  <a class="checkem2" href="#snaps">KELSO Snaps <i class="fa fa-camera" aria-hidden="true"></i></a>-->
                </section>
             </center>
          </div>
@@ -132,7 +135,7 @@
             <!-- menu -->
          </div>
          <!-- fixbox-->
-         <div class="main">
+         
             <div class="modal-wrapper">
                <div class="modal">
                   <div class="head">
@@ -149,7 +152,7 @@
                   </div>
                </div>
             </div>
-         </div>
+        
          <!-- main -->
       </div>
       <!-- simple-contain--->
@@ -166,35 +169,234 @@
       <!-- cruiser heading-->
       <h1 id="snaps" style="height:0;font-size:0pt;"></h1>
       <div class="final-section">
-         <div class="content-spacing">
+        
             <center>
                <p class="snaps"><i class="fa fa-camera-retro" aria-hidden="true"></i> Kelso Snaps</p>
             </center>
-            <div class="first-img-main">
-               <div class="locator1"><i class="fa fa-map-marker" aria-hidden="true"></i> Stockholm, Sweden</div>
-            </div>
-            <div class="height-spacer3"></div>
-            <div class="second-img-main">
-               <div class="locator2"><i class="fa fa-map-marker" aria-hidden="true"></i> Zürich, Switzerland</div>
-            </div>
-            <div class="third-img-main">
-               <div class="locator3"><i class="fa fa-map-marker" aria-hidden="true"></i> Kingston, ON, Canada</div>
-            </div>
-            <div class="height-spacer3"></div>
-            <div class="fourth-img-main">
-               <div class="locator4"><i class="fa fa-map-marker" aria-hidden="true"></i> Huntington Beach, CA, USA</div>
-            </div>
-            <div class="fifth-img-main">
-               <div class="locator5"><i class="fa fa-map-marker" aria-hidden="true"></i> Anykščiai, Lithuania</div>
-            </div>
-            <div class="sixth-img-main">
-               <div class="locator4"><i class="fa fa-map-marker" aria-hidden="true"></i> New York, USA</div>
-            </div>
-            <div class="seventh-img-main">
-               <div class="locator7"><i class="fa fa-map-marker" aria-hidden="true"></i> Rotterdam, Netherlands</div>
-            </div>
-            &nbsp;You can submit your photos <a class="fan">on our fan page</a>! We love seeing you out gettin' your bike on! 
-           <!-- <center>
+            <!--
+               <div class="first-img-main">
+                  <div class="locator1"><i class="fa fa-map-marker" aria-hidden="true"></i> Stockholm, Sweden</div>
+               </div>
+               <div class="height-spacer3"></div>
+               <div class="second-img-main">
+                  <div class="locator2"><i class="fa fa-map-marker" aria-hidden="true"></i> Zürich, Switzerland</div>
+               </div>
+               <div class="third-img-main">
+                  <div class="locator3"><i class="fa fa-map-marker" aria-hidden="true"></i> Kingston, ON, Canada</div>
+               </div>
+               <div class="height-spacer3"></div>
+               <div class="fourth-img-main">
+                  <div class="locator4"><i class="fa fa-map-marker" aria-hidden="true"></i> Huntington Beach, CA, USA</div>
+               </div>
+               <div class="fifth-img-main">
+                  <div class="locator5"><i class="fa fa-map-marker" aria-hidden="true"></i> Anykščiai, Lithuania</div>
+               </div>
+               <div class="sixth-img-main">
+                  <div class="locator4"><i class="fa fa-map-marker" aria-hidden="true"></i> New York, USA</div>
+               </div>
+               <div class="seventh-img-main">
+                  <div class="locator7"><i class="fa fa-map-marker" aria-hidden="true"></i> Rotterdam, Netherlands</div>
+               </div>
+               &nbsp;You can submit your photos <a class="fan">on our fan page</a>! We love seeing you out gettin' your bike on! 
+                
+                end of image grid -->
+            
+             
+                
+                  <div class="gamma-container gamma-loading" id="gamma-container">
+                     <ul class="gamma-gallery">
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/1.jpeg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/1.jpeg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/1.jpeg" data-min-width="700"></div>
+                              <div data-src="images/large/1.jpeg" data-min-width="300"></div>
+                              <div data-src="images/medium/1.jpeg" data-min-width="200"></div>
+                              <div data-src="images/small/1.jpeg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/1.jpeg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/1.jpeg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/3.jpg" data-min-width="700"></div>
+                              <div data-src="images/large/3.jpg" data-min-width="300"></div>
+                              <div data-src="images/medium/3.jpg" data-min-width="200"></div>
+                              <div data-src="images/small/3.jpg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/3.jpg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/3.jpg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/4.jpeg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/4.jpeg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/4.jpeg" data-min-width="700"></div>
+                              <div data-src="images/large/4.jpeg" data-min-width="300"></div>
+                              <div data-src="images/medium/4.jpeg" data-min-width="200"></div>
+                              <div data-src="images/small/4.jpeg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/4.jpeg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/4.jpeg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <ul class="gamma-gallery">
+                           <li>
+                              <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                 <div data-src="images/xxxlarge/1.jpeg" data-min-width="1300"></div>
+                                 <div data-src="images/xxlarge/1.jpeg" data-min-width="1000"></div>
+                                 <div data-src="images/xlarge/1.jpeg" data-min-width="700"></div>
+                                 <div data-src="images/large/1.jpeg" data-min-width="300"></div>
+                                 <div data-src="images/medium/1.jpeg" data-min-width="200"></div>
+                                 <div data-src="images/small/1.jpeg" data-min-width="140"></div>
+                                 <div data-src="images/xsmall/1.jpeg"></div>
+                                 <noscript>
+                                    <img src="images/xsmall/1.jpeg" alt="img03"/>
+                                 </noscript>
+                              </div>
+                           </li>
+                        </ul>
+                        <ul class="gamma-gallery">
+                           <li>
+                              <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                                 <div data-src="images/xxxlarge/2.jpeg" data-min-width="1300"></div>
+                                 <div data-src="images/xxlarge/2.jpeg" data-min-width="1000"></div>
+                                 <div data-src="images/xlarge/2.jpeg" data-min-width="700"></div>
+                                 <div data-src="images/large/2.jpeg" data-min-width="300"></div>
+                                 <div data-src="images/medium/2.jpeg" data-min-width="200"></div>
+                                 <div data-src="images/small/2.jpeg" data-min-width="140"></div>
+                                 <div data-src="images/xsmall/2.jpeg"></div>
+                                 <noscript>
+                                    <img src="images/xsmall/2.jpeg" alt="img03"/>
+                                 </noscript>
+                              </div>
+                           </li>
+                        </ul>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/5.jpeg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/5.jpeg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/5.jpeg" data-min-width="700"></div>
+                              <div data-src="images/large/5.jpeg" data-min-width="300"></div>
+                              <div data-src="images/medium/5.jpeg" data-min-width="200"></div>
+                              <div data-src="images/small/5.jpeg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/5.jpeg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/5.jpeg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/6.jpeg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/6.jpeg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/6.jpeg" data-min-width="700"></div>
+                              <div data-src="images/large/6.jpeg" data-min-width="300"></div>
+                              <div data-src="images/medium/6.jpeg" data-min-width="200"></div>
+                              <div data-src="images/small/6.jpeg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/6.jpeg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/6.jpeg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/7.jpeg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/7.jpeg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/7.jpeg" data-min-width="700"></div>
+                              <div data-src="images/large/7.jpeg" data-min-width="300"></div>
+                              <div data-src="images/medium/7.jpeg" data-min-width="200"></div>
+                              <div data-src="images/small/7.jpeg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/7.jpeg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/7.jpeg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/8.jpeg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/8.jpeg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/8.jpeg" data-min-width="700"></div>
+                              <div data-src="images/large/8.jpeg" data-min-width="300"></div>
+                              <div data-src="images/medium/8.jpeg" data-min-width="200"></div>
+                              <div data-src="images/small/8.jpeg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/8.jpeg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/8.jpeg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/9.jpg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/9.jpg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/9.jpg" data-min-width="700"></div>
+                              <div data-src="images/large/9.jpg" data-min-width="300"></div>
+                              <div data-src="images/medium/9.jpg" data-min-width="200"></div>
+                              <div data-src="images/small/9.jpg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/9.jpg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/9.jpg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/10.jpg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/10.jpg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/10.jpg" data-min-width="700"></div>
+                              <div data-src="images/large/10.jpg" data-min-width="300"></div>
+                              <div data-src="images/medium/10.jpg" data-min-width="200"></div>
+                              <div data-src="images/small/10.jpg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/10.jpg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/10.jpg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/11.jpg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/11.jpg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/11.jpg" data-min-width="700"></div>
+                              <div data-src="images/large/11.jpg" data-min-width="300"></div>
+                              <div data-src="images/medium/11.jpg" data-min-width="200"></div>
+                              <div data-src="images/small/11.jpg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/11.jpg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/11.jpg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                        <li>
+                           <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
+                              <div data-src="images/xxxlarge/12.jpg" data-min-width="1300"></div>
+                              <div data-src="images/xxlarge/12.jpg" data-min-width="1000"></div>
+                              <div data-src="images/xlarge/12.jpg" data-min-width="700"></div>
+                              <div data-src="images/large/12.jpg" data-min-width="300"></div>
+                              <div data-src="images/medium/12.jpg" data-min-width="200"></div>
+                              <div data-src="images/small/12.jpg" data-min-width="140"></div>
+                              <div data-src="images/xsmall/12.jpg"></div>
+                              <noscript>
+                                 <img src="images/xsmall/12.jpg" alt="img03"/>
+                              </noscript>
+                           </div>
+                        </li>
+                     </ul>
+                      <span style="float:right;margin-right:20px;"></span>
+                     <div class="gamma-overlay"></div>
+                  </div>
+          
+            <!-- <center>
                <div class="infobox1">
                   <h2>Be Outstanding</h2>
                   <h3>KELSO BIKES allow you to cruise with comfort, speed and style! Gimondi on your left koppenberg the ten dam garin, bidon meyrueis. Vuelta a espana molteni van den haute vande velde leberg, hoogerland vandenbroucke groupo maillot jaune nokere koerse trousselier.</h3>
@@ -204,89 +406,81 @@
                   <h2>Hit The Trails!</h2>
                   <h3>KELSO BIKES allow you to cruise with comfort, speed and style! Gimondi on your left koppenberg the ten dam garin, bidon meyrueis. Vuelta a espana molteni van den haute vande velde leberg, hoogerland vandenbroucke groupo maillot jaune nokere koerse trousselier.</h3>
                </div>
-            </center>-->
-              <section class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="">
-           <h2 class="quote"> “Bicycles are the indicator species of a community, like shellfish in a bay.” <br>
-               <span style="text-decoration:none;font-style:none;">-P. Martin Scott</span>
-             </h2>
-             </section>
+               </center>-->
+           <div class="content-spacing">
+            <section class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="">
+               <h2 class="quote"> “Bicycles are the indicator species of a community, like shellfish in a bay.” <br>
+                  <span style="text-decoration:none;font-style:none;">-P. Martin Scott</span>
+               </h2>
+            </section>
          </div>
          <!-- content spacing---> 
-          
-          <div class="featured-product">
-              <h2 class="ft-ride">Newest Rides</h2>
-                <table>
-             <tr>
-                 
-                     <td class="text" style="text-align:center;"><h2>Viper II</h2>
-                         Cruise in style with the new Viper 2! Though just as sleek and just as sexy as its predecessor, our three speed beach cruisers are more functional. Ride up hills, down hills, and around hills on this cruiser. Like our single speed cruisers, our three speeders are adorned with light brown synthetic leather grips and a super wide, super comfortable seat... <a class="readmore">Read More</a><br><br><br>
-                 <a class="purchase">Add To Cart</a></td>
-                 <td class="image" >
-          <img src="images/new/featured-bike.jpg" class="table-right" alt="featured bike photo">
-                 </td>
-             </tr>
-              </table>
-              <br><br><br>
-         <table>
-             <tr>
-                 
-                  
-                 <td class="image2">
-          <img src="images/new/featured-bike-2.jpg" alt="featured bike photo">
-                 </td>
-                    <td class="text" style="text-align:center;"><h2>Dash</h2>
-                         The Dash is light weight, rust resistant aluminum frame and high quality components, this gorgeous beach cruiser will look great for years to come as well as be easy to ride and handle great. Whether you live in the city or on the board walk, the Oakwood Aluminum cruiser is the perfect companion for cruising to the store or the local coffee shop<br><br><br>
-                 <a class="purchase">Add To Cart</a></td>
-             </tr>
-              </table>
-          </div>
-          
-          <div class="locations"><br>
-              <h2>Where You Can Find Us &nbsp;<i class="fa fa-map-marker" aria-hidden="true"></i></h2>
-             <br>
-<!--              <div class="ball-loc1"></div>-->
-              &nbsp;&nbsp;&nbsp;<span style="color:#ff406d;">North America</span>
-                    &nbsp;
-<!--                 <div class="ball-loc2"></div> -->
-              &nbsp;&nbsp;&nbsp;<span style="color:#3E9CB4;">Europe</span>
-              
-               &nbsp;
-<!--                 <div class="ball-loc3"></div> -->
-              &nbsp;&nbsp;&nbsp;<span style="color:#333;">Rest of the World</span>
-              
-              <br><br><br><br><br>
-    <a class="location">New York, NY, USA</a>
-
-
-          <a class="location">Buffalo, NY, USA</a>
-      
-          <a class="location">Stamford, CT, USA</a>
-      
-   <a class="location">Toronto, ON, Canada</a>
-   
-        <a class="location">Montreal, QC, Canada</a>
-        <a class="location">Gatineau, QC, Canada</a>
-        <br><br>
+         <div class="featured-product">
+            <h2 class="ft-ride">Newest Rides</h2>
+            <table>
+               <tr>
+                  <td class="text" style="text-align:center;">
+                     <h2>Viper II</h2>
+                     Cruise in style with the new Viper 2! Though just as sleek and just as sexy as its predecessor, our three speed beach cruisers are more functional. Ride up hills, down hills, and around hills on this cruiser. Like our single speed cruisers, our three speeders are adorned with light brown synthetic leather grips and a super wide, super comfortable seat... <a class="readmore">Read More</a><br><br><br>
+                     <a class="purchase">Add To Cart</a>
+                  </td>
+                  <td class="image" >
+                     <img src="images/new/featured-bike.jpg" class="table-right" alt="featured bike photo">
+                  </td>
+               </tr>
+            </table>
+            <br><br><br>
+            <table>
+               <tr>
+                  <td class="image2">
+                     <img src="images/new/featured-bike-2.jpg" alt="featured bike photo">
+                  </td>
+                  <td class="text" style="text-align:center;">
+                     <h2>Dash</h2>
+                     The Dash is light weight, rust resistant aluminum frame and high quality components, this gorgeous beach cruiser will look great for years to come as well as be easy to ride and handle great. Whether you live in the city or on the board walk, the Oakwood Aluminum cruiser is the perfect companion for cruising to the store or the local coffee shop<br><br><br>
+                     <a class="purchase">Add To Cart</a>
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="locations">
             <br>
-        <a class="location2">Berlin, Germany</a>
-        <a class="location2">Rotterdam, Netherlands</a>
-        <a class="location2">Anykščiai, Lithuania</a>
-        <a class="location2">Zürich, Switzerland</a>
-        <a class="location2">London, England</a>
-        <a class="location2">Bristol, England</a>
-        <a class="location2">Riga, Latvia</a>
-       <br><br>
+            <h2>Where You Can Find Us &nbsp;<i class="fa fa-map-marker" aria-hidden="true"></i></h2>
             <br>
-            
-             <a class="location3">Perth, Australia</a>  
-             <a class="location3">Adelaide, Australia</a>  
-             <a class="location3">Tauranga, New Zealand</a>  
-          <br><br><br><i style="font-size:9pt;color:#888;">*We ship worldwide!</i>
-          
-          </div> <!-- location -->
+            <!--              <div class="ball-loc1"></div>-->
+            &nbsp;&nbsp;&nbsp;<span style="color:#ff406d;">North America</span>
+            &nbsp;
+            <!--                 <div class="ball-loc2"></div> -->
+            &nbsp;&nbsp;&nbsp;<span style="color:#3E9CB4;">Europe</span>
+            &nbsp;
+            <!--                 <div class="ball-loc3"></div> -->
+            &nbsp;&nbsp;&nbsp;<span style="color:#333;">Rest of the World</span>
+            <br><br><br><br><br>
+            <a class="location">New York, NY, USA</a>
+            <a class="location">Buffalo, NY, USA</a>
+            <a class="location">Stamford, CT, USA</a>
+            <a class="location">Toronto, ON, Canada</a>
+            <a class="location">Montreal, QC, Canada</a>
+            <a class="location">Gatineau, QC, Canada</a>
+            <br><br>
+            <br>
+            <a class="location2">Berlin, Germany</a>
+            <a class="location2">Rotterdam, Netherlands</a>
+            <a class="location2">Anykščiai, Lithuania</a>
+            <a class="location2">Zürich, Switzerland</a>
+            <a class="location2">London, England</a>
+            <a class="location2">Bristol, England</a>
+            <a class="location2">Riga, Latvia</a>
+            <br><br>
+            <br>
+            <a class="location3">Perth, Australia</a>  
+            <a class="location3">Adelaide, Australia</a>  
+            <a class="location3">Tauranga, New Zealand</a>  
+            <br><br><br><i style="font-size:9pt;color:#888;">*We ship worldwide!</i>
+         </div>
+         <!-- location -->
          <div class="kelso-img-bike">
             <img src="images/logo-white.png" class="white-logo-img-pos" alt="KELSO logo"><br>
-             
          </div>
          <center>
             <section class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="">
@@ -300,29 +494,81 @@
          <div class="featured">
             <center>
                <section class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="">
-                  <h2>Introducing the Voltic.<br>KELSO's first carbon fiber bicycle. <br> Summer 2017.</h2>
-                  <a class="preorder">Specs</a>&nbsp;&nbsp;&nbsp;
-                  <a class="preorder">Reserve The Voltic</a>
+                  <h2 class="featured">Introducing the Voltic.<br>KELSO's first carbon fiber bicycle. <br> Summer 2017.<br>
+                  <a class="preorder">Specs</a>&nbsp;
+                      <a class="preorder">Reserve The Voltic</a></h2>
                </section>
             </center>
          </div>
       </div>
       <!-- final section--->
-       <div class="adventure">
-           
-           
-           
-            
-                <div class="adventure-text"> Start Your Adventure Today<br>
-           <img src="images/logo-white.png" alt="white logo"><br><br>
-                    <a class="getstarted">Browse Bicycles</a>
-           </div>
-        
-           
-<!--      <a class="top" href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>     -->
-           
-       </div>
+      <div class="adventure">
+         <div class="adventure-text"> Start Your Adventure Today<br>
+            <img src="images/logo-white.png" alt="white logo"><br><br>
+            <a class="getstarted">Browse Bicycles</a>
+         </div>
+         <!--      <a class="top" href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>     -->
+      </div>
        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script src="js/jquery.masonry.min.js"></script>
+      <script src="js/jquery.history.js"></script>
+      <!--		<script src="js/js-url.min.js"></script>-->
+      <script src="js/jquerypp.custom.js"></script>
+      <script src="js/gamma.js"></script>
+      <script type="text/javascript">
+         $(function() {
+         
+         	var GammaSettings = {
+         			// order is important!
+         			viewport : [ {
+         				width : 1200,
+         				columns : 3
+         			}, {
+         				width : 900,
+         				columns : 3
+         			}, {
+         				width : 500,
+         				columns : 3
+         			}, { 
+         				width : 320,
+         				columns : 1
+         			}, { 
+         				width : 0,
+         				columns : 1
+         			} ]
+         	};
+         
+         	Gamma.init( GammaSettings, fncallback );
+         
+         
+         	// Example how to add more items (just a dummy):
+         
+         
+         	function fncallback() {
+         
+         		$( '#loadmore' ).show().on( 'click', function() {
+         
+         			++page;
+         			var newitems = items[page-1]
+         			if( page <= 1 ) {
+         				
+         				Gamma.add( $( newitems ) );
+         
+         			}
+         			if( page === 1 ) {
+         
+         				$( this ).remove();
+         
+         			}
+         
+         		} );
+         
+         	}
+         
+         });
+         
+      </script>	        
        
       <script src="wow/dist/wow.min.js"></script>
       <script>
@@ -341,6 +587,7 @@
            section.className = 'section--purple wow fadeInDown';
            this.parentNode.insertBefore(section, this);
          };
-      </script>       
+      </script>   
+      
    </body>
 </html>

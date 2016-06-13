@@ -209,7 +209,7 @@ box-shadow: 0px 1px 24px 0px rgba(0,0,0,0.75);
 
 
 .main{
-    height:auto;
+    height:600px;
     background-color:#333;
     z-index:999;
     
@@ -297,7 +297,11 @@ a.cruisers:active{
 }
 
 
-
+.image-grid{
+    height:1200px;
+    background:url(images/new/grid.jpg);
+    background-size:100% 100%;
+}
 
 .simple-contain{
    height:auto;
@@ -690,7 +694,7 @@ h2.quote{
 
 }
 
-.featured h2{
+h2.featured{
     font-size:36pt;
     letter-spacing:0px;
     position:relative;
@@ -705,6 +709,7 @@ h2.quote{
 
 a.preorder{
     border:2px solid black;
+    color:#000;
     letter-spacing:3px;
     font-weight:bold;
     font-size:12pt;
@@ -807,7 +812,7 @@ a.purchase{
     background-color:#3eb489;
     padding:10px 30px;
     cursor:pointer;
-    
+    color:white;
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
