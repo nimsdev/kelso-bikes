@@ -1,8 +1,8 @@
 
 a.btn{
     display:inline-block;
-   
-/*    margin-top:50px;*/
+    float:left;
+    margin-top:px;
 }
 
 .modal-wrapper{
@@ -50,7 +50,7 @@ a.btn{
 .head{
   width:90%;
   height:21px;
-  padding:1.5em 5%;
+  padding:2.5em 5%;
   overflow:hidden;
   background:#01bce5;
   background:#fff;

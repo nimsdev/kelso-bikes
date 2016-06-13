@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 580px) { 
     
 .top-left-column{
     width:100%;
@@ -11,6 +11,10 @@
     float:right;
 }
 
+    a.btn{
+        top:44px;
+        
+    }
 
 .top-right-column{
     width:100%;
@@ -112,7 +116,7 @@ a.btn{
     
     
 .featured-product{
-    margin-top:250px;
+    margin-top:280px;
     
 }    
     
@@ -136,6 +140,7 @@ td.img{
 img.table-right{
     float:left;
     width:100%;
+    height:300px;
 }
 
 a.readmore{
@@ -156,6 +161,7 @@ a.readmore{
     
     td.image2 img{
 width:100%;
+        height:300px;
     }    
     
     h2.ft-ride{
@@ -164,7 +170,7 @@ width:100%;
     
     
     .locations h2{
-        font-size:22pt;
+        font-size:20pt;
     }    
     
     h2.mission{
@@ -192,6 +198,31 @@ width:100%;
     
        
     }
+    
+   
+    
+.kelso-img-bike{
+height:450px;
+    }
+    
+    
+    .adventure{
+        height:670px;
+    }  
+    
+    
+    
+
+a.menu-link-c{
+    color:#5494FD;
+    font-size:28pt;
+    display:block;
+    margin-top:20px;
+    text-align:center;
+    letter-spacing:2px;
+    font-weight:100;
+
+}    
     
     
 } /*end of media */
