@@ -8,10 +8,8 @@
       <link rel="stylesheet" type="text/css" href="popup.css">
       <link rel="stylesheet" type="text/css" href="grid.css">
       <link rel="stylesheet" type="text/css" href="main.css">
-      <link rel="stylesheet" type="text/css" href="scroll.css">
       <link rel="stylesheet" type="text/css" href="media.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
+      <link rel="stylesheet" type="text/css" href="scroll.css">
       <title>Kelso Bikes - Quality, Comfort, Style</title>
       <link href='https://fonts.googleapis.com/css?family=Signika:400,700,600,300' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
@@ -42,7 +40,7 @@
          });
          
       </script>   
-     <script>
+      <script>
          function sticky_relocate() {
              var window_top = $(window).scrollTop();
              var div_top = $('#sticky-anchor').offset().top;
@@ -78,7 +76,7 @@
          }
                 
                 
-      </script>    
+      </script>     
       <script>
          $(function() {   
            $('a[href*=#]:not([href=#])').click(function() {
@@ -128,7 +126,7 @@
          <div class="fixbox">
             <div class="menu">
                <h1 id="browse" style="height:0;font-size:0pt;"></h1>
-               <center><img src="images/logo-white.png" alt="menu logo"></center>
+               <center><img src="images/logo-white.png" class="menu-logo" alt="menu logo"></center>
                <div class="menu-links">
                   <a class="btn trigger" href="javascript:;">
                   <i class="fa fa-bars fa-2x"></i>
@@ -160,6 +158,15 @@
       </div>
       <!-- simple-contain--->
       <div class="heading-section">
+             <div class="rem-desk">
+           <center><p style="text-align:center !important;">
+               Looking to get from point <span style="color:#ff406d;">A</span> to point <span style="color:#ff406d;">B</span>?<br>
+               Browse our latest <br>selection of <span style="color:#3E9CB4;">Cruisers</span> <br><br>
+               <a class="cruisers">Shop Cruisers</a>
+            </p>
+              </center>
+          </div>
+          
          <div id="sticky-anchor"></div>
          <div id="sticky">
             <center>
@@ -168,6 +175,8 @@
                <a class="cruisers">Shop Cruisers</a>
             </center>
          </div>
+          
+       
       </div>
       <!-- cruiser heading-->
       <h1 id="snaps" style="height:0;font-size:0pt;"></h1>
